@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
 import Editor from './Editor/Editor';
+//import EditorToolbar './EditorToolbar/EditorToolbar';
 
 function App() {
   return (
     <div className="App">
        <Editor />
+       {/* <EditorToolbar /> */}
     </div>
   );
 }
@@ -16,7 +18,7 @@ export default App;
 // source for tables - https://codepen.io/quill/pen/QxypzX
 // more code for tables - https://stackoverflow.com/questions/52331928/how-can-i-initialize-table-in-quill-js-2-0
 // source for quill better table - https://www.npmjs.com/package/quill-better-table
-
+// source for Undo / Redo - https://medium.com/@mircea.calugaru/react-quill-editor-with-full-toolbar-options-and-custom-buttons-undo-redo-176d79f8d375
 
 
 {/* 
